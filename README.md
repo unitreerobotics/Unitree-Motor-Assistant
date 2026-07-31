@@ -1,77 +1,49 @@
-# Qt LGPL Compliance Notice
+# Unitree Motor Assistant
 
-This repository provides open source compliance information for **Unitree Motor Assistant**,  
-which uses the Qt framework under the **GNU Lesser General Public License v3 (LGPLv3)**.
-
----
-
-## Supported Platforms
+## Supported Platform
 
 - **Windows only.** Unitree Motor Assistant currently only supports the Windows operating system.
+
+---
 
 ## Compatible Motor Models
 
 - J288 / S288
 - IM6014
 
-## Usage Guide
+---
 
-For detailed usage instructions, please refer to:  [Unitree Motor Assistant User Guide](https://support.unitree.com/home/zh/Motor_IM6014%20Development%20Guide/Motor_debugging_assistant)
+## User Guide
+
+&emsp;&emsp;For detailed usage instructions, please refer to:  [Unitree Motor Assistant User Guide](https://support.unitree.com/home/zh/Motor_IM6014%20Development%20Guide/Motor_debugging_assistant)
 
 ---
 
-## Qt Version Used
+## License
 
-| Item          | Details                                                           |
-|---------------|-------------------------------------------------------------------|
-| Framework     | Qt                                                                |
-| Version       | **6.6.3**                                                         |
-| License       | LGPLv3                                                            |
-| Official Site | https://www.qt.io                                                 |
-| Official Source Code   | https://download.qt.io/archive/qt/6.6/6.6.3/single/      |
-| Official Release Notes | https://doc.qt.io/qt-6/whatsnew66.html                   |
-| Unitree QT Source Code   |  [qtbase](https://oss-global-cdn.unitree.com/static/8b44a2292e5f468dacb40d4f074f56ce.zip), [qtserialport](https://oss-global-cdn.unitree.com/static/72f0a51f867647c9bd63e533d2ee5400.zip)   |
+Unitree Motor Assistant is licensed under the [BSD 3-Clause License](LICENSE).
+Third-party components are licensed separately under their respective terms.
 
 ---
 
-## How Unitree Motor Assistant Uses Qt
+## Qt Third-Party Open-Source Notice
 
-- Unitree Motor Assistant is built against **Qt 6.6.3** under the LGPLv3 license.
-- Unitree Motor Assistant links against Qt libraries **dynamically**, ensuring that  
-  end users can replace the Qt libraries with their own versions.
-- Unitree Motor Assistant's own application source code remains proprietary,  
-  as permitted under LGPLv3.
-- No GPL-only Qt modules are used in Unitree Motor Assistant.
-- No modifications have been made to the Qt source code.
+&emsp;&emsp;Unitree Motor Assistant uses unmodified **Qt 6.6.3** libraries under the **GNU Lesser General Public License version 3 (LGPLv3)**. The application dynamically links to Qt, allowing users to replace the distributed Qt DLLs with interface-compatible versions. No GPL-only Qt modules are used. The LGPLv3 applies to the Qt libraries, not to the Unitree Motor Assistant project code.
 
----
+&emsp;&emsp;Qt is copyright The Qt Company Ltd. and other contributors. Qt and its bundled third-party components remain subject to their respective license terms:
 
-## License Texts
-
-The full text of the licenses used are available below:
-
-- [GNU Lesser General Public License v3 (LGPLv3)](https://www.gnu.org/licenses/lgpl-3.0.html)
-- [GNU General Public License v3 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html)  
-  *(LGPLv3 incorporates GPLv3 by reference)*
-
----
-
-## Third-Party Attributions
-
-Qt 6.6.3 is developed by The Qt Company and contributors.  
-For full attribution and copyright notices, please refer to:  
-https://doc.qt.io/qt-6/licenses-used-in-qt.html
+- Licenses: [LGPLv3](third-party/Qt/LGPL-3.0-LICENSE) and [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
+- Corresponding Qt source: [qtbase](https://oss-global-cdn.unitree.com/static/8b44a2292e5f468dacb40d4f074f56ce.zip) and [qtserialport](https://oss-global-cdn.unitree.com/static/72f0a51f867647c9bd63e533d2ee5400.zip)
+- Official Qt 6.6.3 [source archive](https://download.qt.io/archive/qt/6.6/6.6.3/single/) and [license information](https://doc.qt.io/qt-6/licensing.html)
 
 ---
 
 ## Contact
 
-If you have any questions regarding our open source compliance,  
-please contact us at:
-
+If you have any questions regarding our open source compliance, please contact us at:
 🌐 **https://www.unitree.com**
 
 ---
 
 *Last updated: 2026*  
-*This notice applies to Unitree Motor Assistant and its distributed Qt 6.6.3 libraries.*
+*This Qt notice applies only to the distributed Qt 6.6.3 libraries and their third-party components; it does not change the BSD 3-Clause License of Unitree Motor Assistant.*
